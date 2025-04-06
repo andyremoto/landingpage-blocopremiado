@@ -1,0 +1,14 @@
+{
+    "nuxt.isNuxtApp": false,
+    "css.validate": true,
+    "css.lint.unknownAtRules": "ignore",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+    "editor.formatOnSave": true
+}

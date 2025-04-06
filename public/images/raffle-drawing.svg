@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Raffle Drawing</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle fill="#4F46E5" cx="100" cy="100" r="60"></circle>
+        <circle fill="#FFFFFF" cx="100" cy="100" r="50" stroke="#FFFFFF" stroke-width="4"></circle>
+        <path d="M100,60 L100,100 L130,115" stroke="#4F46E5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle fill="#4F46E5" cx="100" cy="100" r="5"></circle>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="80" y="80">12</text>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="120" y="80">1</text>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="135" y="100">2</text>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="120" y="120">3</text>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="80" y="120">6</text>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#4F46E5" text-anchor="middle" x="65" y="100">9</text>
+    </g>
+</svg>

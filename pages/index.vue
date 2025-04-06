@@ -34,30 +34,28 @@
             </div>
           </div>
           
-          <div class="flex-1 relative">
-            <div class="relative w-full max-w-md mx-auto">
+          <div class="flex-1 relative mt-12 lg:mt-0 flex justify-center">
+            <div class="relative">
               <!-- Círculo do sorteio separado da hierarquia para garantir primeiro plano -->
-              <div style="position: absolute; bottom: 50px; right: 40px; width: 7rem; height: 7rem; z-index: 9999;" class="bg-purple-800 rounded-full flex items-center justify-center text-white font-bold shadow-lg transform rotate-12 pulse-animation border-4 border-white/40">
-                <span class="block text-center leading-tight text-lg">Sorteio<br/>12/04</span>
+              <div style="position: absolute; bottom: 0%; right: -10%; width: 6rem; height: 6rem; z-index: 30;" class="bg-purple-800 rounded-full flex items-center justify-center text-white font-bold shadow-lg transform rotate-12 pulse-animation border-4 border-white/40">
+                <span class="block text-center leading-tight text-base sm:text-lg">Sorteio<br/>12/04</span>
               </div>
-              <!-- iPhone in display case -->
-<div class="relative h-[500px] w-full max-w-[320px] mx-auto slide-in-right">
-  <div class="absolute inset-0 bg-gradient-to-b from-orange-400/20 to-pink-600/20 rounded-2xl"></div>
-  <div class="absolute inset-0 flex items-center justify-center">
-    <div class="relative w-64 h-96 border-4 border-white/20 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-xl overflow-hidden">
-      <!-- Modificações na imagem para preencher o container -->
-      <img 
-        :src="iphoneImage" 
-        class="absolute inset-0 w-full h-full object-cover z-10 float-animation" 
-        alt="iPhone 16"
-      />
-      <div class="absolute inset-0 flex items-center justify-center z-5">
-        <span class="font-bold text-8xl text-white/30">16</span>
-      </div>
-
-    </div>
-  </div>
-</div>
+              
+              <!-- iPhone in display case - simplified structure for better mobile display -->
+              <div class="relative w-[220px] h-[350px] sm:w-[280px] sm:h-[450px] md:w-[320px] md:h-[500px] mx-auto bg-gradient-to-b from-orange-400/20 to-pink-600/20 rounded-2xl p-4 shadow-lg slide-in-right">
+                <div class="w-full h-full rounded-xl border-4 border-white/20 bg-white/10 backdrop-blur-sm shadow-xl overflow-hidden flex items-center justify-center">
+                  <!-- Direct image with fixed dimensions -->
+                  <img 
+                    src="/images/iphone16.jpg" 
+                    class="w-[200px] h-[300px] sm:w-[240px] sm:h-[380px] md:w-[280px] md:h-[440px] object-cover object-center rounded-lg float-animation" 
+                    alt="iPhone 16"
+                  />
+                  <!-- Number overlay -->
+                  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <span class="font-bold text-6xl sm:text-8xl text-white/30"></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

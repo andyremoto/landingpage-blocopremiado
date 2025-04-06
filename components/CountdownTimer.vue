@@ -10,11 +10,11 @@
       </div>
       <div class="bg-gradient-to-br from-orange-50 to-pink-50 rounded-lg p-3 shadow-lg border border-orange-100">
         <div class="text-3xl font-bold select-none">{{ minutes }}</div>
-        <div class="text-xs uppercase tracking-wide">Minutos</div>
+        <div class="text-xs uppercase tracking-wide">Min.</div>
       </div>
       <div class="bg-gradient-to-br from-orange-50 to-pink-50 rounded-lg p-3 shadow-lg border border-orange-100">
         <div class="text-3xl font-bold select-none transition-all duration-200 ease-in-out">{{ seconds }}</div>
-        <div class="text-xs uppercase tracking-wide">Segundos</div>
+        <div class="text-xs uppercase tracking-wide">Seg.</div>
       </div>
     </div> 
   </template>

@@ -118,7 +118,7 @@
               </svg>
             </div>
             <h3 class="text-lg font-medium text-gray-900">Quem Congela Primeiro Ganha Mais</h3>
-            <p class="mt-2 text-gray-500">Quem entra antes ganha mais, paga menos nas tokens e tem a maior chance de valorização.</p>
+            <p class="mt-2 text-gray-500">Quem entra antes ganha mais, <strong class="text-orange-600">paga menos nas tokens</strong> e tem a maior chance de valorização.</p>
           </div>
         </div>
       </div>
@@ -330,7 +330,7 @@
               </svg>
             </div>
             <h3 class="text-lg font-medium text-gray-900">Simplicidade Total</h3>
-            <p class="mt-3 text-gray-500">Tudo simples, seguro e direto no celular</p>
+            <p class="mt-3 text-gray-500">Tudo simples, <strong>seguro e direto</strong> no celular</p>
           </div>
         </div>
       </div>

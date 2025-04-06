@@ -5,7 +5,7 @@
           Pronto para congelar dinheiro e concorrer ao iPhone 16?
         </h3>
         <p class="text-lg text-gray-600">
-          O DApp Bloco Premiado é o caminho mais rápido e seguro para transformar seus reais em tokens EQ9 e participar do sorteio.
+          O App Bloco Premiado é o caminho mais rápido e seguro para transformar seus reais em tokens EQ9 e participar do sorteio.
         </p>
       </div>
   
